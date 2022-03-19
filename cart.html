@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!----------Menu-------->
+    <header>
+        <div class="logo">
+            <a href="index.html"></a><img src="images/logo.png" alt="" class="imageChange">
+        </div>
+        <div class="menu">
+            <li><a href="">SẢN PHẨM</a>
+                <ul class="sub-menu">
+                    <li><i class="fa fa-laptop"></i><a href="">Laptop, Máy Tính Xách Tay</a></li>
+                    <li><i class="fa fa-desktop"></i><a href="">Máy Tính, Máy Chủ</a></li>
+                    <li><i class="fa fa-microchip"></i><a href="">Linh Kiện Máy Tính</a></li>
+                    <li><i class="fa fa-television"></i><a href="">Màn Hình Máy Tính</a></li>
+                    <li><i class="fa fa-headphones"></i><a href="">Gaming Gear</a></li>
+                    <li><i class="fa fa-usb"></i><a href="">Phụ Kiện Laptop, PC, Khác</a></li>
+                </ul>
+            
+            </li>
+            <li><a href="">BẢO HÀNH</a></li>
+            <li><a href="">CHÍNH SÁCH - HƯỚNG DẪN</a></li>
+            <li><a href="">XÂY DỰNG CẤU HÌNH</a></li>       
+        </div>
+        <div class="others">
+            <li><input placeholder="Tìm kiếm" type="text"> <i class="fa fa-search"></i></li>
+            <li><a class="fa fa-user" href=""></a></li>
+            <li>
+                <a class="fa fa-shopping-bag" href=""></a>
+                <b id="count_shopping_cart_store" class="cart_counter_new">0</b>
+            </li>
+        </div>
+    </header>
+    <!----end-menu----------->
+
+    <!----cart----------->
+    <section class="cart">
+        <div class="containers">
+            <div class="cart-top row">
+                <p><a href="index.html">Trang chủ</a></p><span>&#62;</span><p>Giỏ hàng</p>
+            </div>
+        </div>
+        <div class="cart-title">
+            <h1>Giỏ hàng</h1>
+        </div>
+        <div class="cart-content row">
+            <div class="cart-content-left row">
+                <div class="cart-header-left row">
+                    <div class="cart-header-left-product">
+                        <span>Sản phẩm</span>
+                    </div>
+                    <div class="cart-header-left-price">
+                        Đơn giá
+                    </div>
+                    <div class="cart-header-left-quantity">
+                        Số lượng
+                    </div>
+                    <div class="cart-header-left-total-price">
+                        Thành tiền
+                    </div>
+                    <div class="cart-header-left-delete">
+                        Xóa
+                    </div>
+                </div>
+                <div class="cart-list-item">
+                    <div class="cart-list-item-new row">
+                        <div class="cart-header-left-product row">
+                            <img src="images/img20.png" alt="" class="cart-header-left-product-img">
+                            <div class="cart-header-left-product-info">
+                                <a href="#" class="cart-header-left-product-info-name">
+                                    Laptop Acer Swift 3 SF314-43-R4X3 NX.AB1SV.004 (Ryzen 5-5500U | 16GB | 512GB | AMD Radeon | 14 inch FHD | Win 11 | Bạc)
+                                </a>
+                                <span class="cart-header-left-product-info-sku">
+                                    MÃ SP : NBAC0322
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cart-header-left-price">
+                            <span class="cart-item-price">21.499.000 đ</span>
+                            <span class="cart-item-old-price">22.999.000 đ</span>
+                        </div>
+                        <div class="cart-header-left-quantity">
+                            <input type="number" min="0" value="1">
+                        </div>
+                        <div class="cart-header-left-total-price">
+                            <b class="cart-item-prices">21.499.000</b>
+                            <b style="font-size: 16px;color: #ee2724;">đ</b>
+                        </div>
+                        <div class="cart-header-left-delete">
+                            <a class="fa fa-trash" href=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-list-item">
+                    <div class="cart-list-item-new row">
+                        <div class="cart-header-left-product row">
+                            <img src="images/img20.png" alt="" class="cart-header-left-product-img">
+                            <div class="cart-header-left-product-info">
+                                <a href="#" class="cart-header-left-product-info-name">
+                                    Laptop Acer Swift 3 SF314-43-R4X3 NX.AB1SV.004 (Ryzen 5-5500U | 16GB | 512GB | AMD Radeon | 14 inch FHD | Win 11 | Bạc)
+                                </a>
+                                <span class="cart-header-left-product-info-sku">
+                                    MÃ SP : NBAC0322
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cart-header-left-price">
+                            <span class="cart-item-price">21.499.000 đ</span>
+                            <span class="cart-item-old-price">22.999.000 đ</span>
+                        </div>
+                        <div class="cart-header-left-quantity">
+                            <input type="number" min="0" value="1">
+                        </div>
+                        <div class="cart-header-left-total-price">
+                            <b class="cart-item-prices">21.499.000</b>
+                            <b style="font-size: 16px;color: #ee2724;">đ</b>
+                        </div>
+                        <div class="cart-header-left-delete">
+                            <a class="fa fa-trash" href=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="cart-content-right">
+                <div class="cart-box-total-price row">
+                    <p>
+                        <span>Tạm tính:</span>
+                        <span class="total-cart-price">21.499.000 đ</span>
+                    </p>
+                    <p>
+                        <span>Thành tiền:</span>
+                        <span class="red-b total-cart-payment">21.499.000 đ</span>
+                    </p>
+                    <span class="cart-vat">(Đã bao gồm VAT nếu có)</span>
+                </div>
+                <button class="button-buy-summit-cart">
+                    Tiến hành đặt hàng
+                </button>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!----cart-end---------->
+
+    <!------------Footer------------------>
+    <footer>
+        <div class="containers">
+            <div class="noi-dung about">
+                <h2>Về Chúng Tôi</h2>
+                <p>Lorem ipsumdolor sit...</p>
+                <ul class="social-icon">
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="noi-dung links">
+                <h2>Đường Dẫn</h2>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Thông Tin Liên Lạc</a></li>
+                    <li><a href="#">Chính Sách - Hướng Dẫn</a></li>
+                </ul>
+            </div>
+            <div class="noi-dung contact">
+                <h2>Thông Tin Liên Hệ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker"></i></span>
+                        <span>
+                            Quận Thủ Đức, Thành Phố Hồ Chí Minh, <br>
+                            Việt Nam <br />
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone"></i></span>
+                        <p><a href="#">+84 352 180 875</a>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i></span>
+                        <p><a href="#">trungthanh0199@gmail.com</a></p>
+                   </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!---------end--- footer-->
+</body>
+<script>
+    function carttotal(){
+        var cartItem = document.querySelectorAll(".cart-list-item")
+        //console.log("")
+        for(var i=0;i<cartItem.length;i++){
+            var inputValue = cartItem[i].querySelector("input").value
+            console.log(inputValue)
+        }
+    }
+
+    /////---------total-price-----
+
+
+</script>
+</html>
